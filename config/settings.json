@@ -1,0 +1,8 @@
+{
+  "project_name": "Social Media Analytics Engine",
+  "random_seed": 20260917,
+  "post_count": 2500,
+  "platforms": ["Instagram", "TikTok", "LinkedIn", "X", "Facebook"],
+  "topics": ["fintech", "small business", "personal finance", "mobile money", "data analytics", "marketing", "ecommerce"],
+  "content_types": ["video", "image", "carousel", "text", "short"]
+}

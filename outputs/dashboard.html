@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Social Media Analytics Engine</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f7f8fb; color: #1c2230; }
+    header { background: #20283d; color: white; padding: 34px 44px; }
+    header p { color: #dfe5f5; max-width: 900px; line-height: 1.55; }
+    main { padding: 28px 44px 48px; }
+    .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; }
+    .kpis article, .panel { background: white; border: 1px solid #dfe4ee; border-radius: 8px; padding: 18px; }
+    .kpis span { display: block; color: #596275; margin-bottom: 8px; }
+    .kpis strong { font-size: 26px; }
+    .layout { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 18px; margin-top: 18px; }
+    .bar-row { display: grid; grid-template-columns: 120px 1fr 76px; align-items: center; gap: 10px; margin: 12px 0; }
+    .bar { height: 13px; background: #edf1f6; border-radius: 999px; overflow: hidden; }
+    .bar div { height: 100%; background: #4e72d0; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border-bottom: 1px solid #e3e8f1; padding: 9px; text-align: left; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Social Media Analytics Engine</h1>
+    <p>Engagement, sentiment, platform, and topic analytics transformed into clean CSV outputs, SQL-ready tables, and a client-ready dashboard.</p>
+  </header>
+  <main>
+    <section class="kpis"><article><span>Posts analyzed</span><strong>2,500</strong></article><article><span>Total reach</span><strong>3,199,822</strong></article><article><span>Avg engagement</span><strong>9.55%</strong></article><article><span>Positive sentiment</span><strong>44.0%</strong></article></section>
+    <section class="layout">
+      <section class='panel'><h2>Engagement by Platform</h2><div class='bar-row'><span>TikTok</span><div class='bar'><div style='width:100.0%'></div></div><strong>9.74%</strong></div><div class='bar-row'><span>Instagram</span><div class='bar'><div style='width:98.5%'></div></div><strong>9.59%</strong></div><div class='bar-row'><span>Facebook</span><div class='bar'><div style='width:97.6%'></div></div><strong>9.51%</strong></div><div class='bar-row'><span>X</span><div class='bar'><div style='width:97.1%'></div></div><strong>9.46%</strong></div><div class='bar-row'><span>LinkedIn</span><div class='bar'><div style='width:96.9%'></div></div><strong>9.44%</strong></div></section>
+      <section class='panel'><h2>Engagement by Topic</h2><div class='bar-row'><span>fintech</span><div class='bar'><div style='width:100.0%'></div></div><strong>49368.00</strong></div><div class='bar-row'><span>ecommerce</span><div class='bar'><div style='width:99.0%'></div></div><strong>48851.00</strong></div><div class='bar-row'><span>personal finance</span><div class='bar'><div style='width:91.6%'></div></div><strong>45233.00</strong></div><div class='bar-row'><span>data analytics</span><div class='bar'><div style='width:90.8%'></div></div><strong>44835.00</strong></div><div class='bar-row'><span>mobile money</span><div class='bar'><div style='width:87.9%'></div></div><strong>43395.00</strong></div><div class='bar-row'><span>marketing</span><div class='bar'><div style='width:85.2%'></div></div><strong>42037.00</strong></div><div class='bar-row'><span>small business</span><div class='bar'><div style='width:79.4%'></div></div><strong>39220.00</strong></div></section>
+      <section class='panel'><h2>Sentiment Summary</h2><table><thead><tr><th>sentiment_label</th><th>posts</th><th>avg_engagement_rate</th><th>avg_reach</th></tr></thead><tbody><tr><td>Positive</td><td>1101</td><td>10.41</td><td>1452.92</td></tr><tr><td>Neutral</td><td>784</td><td>9.34</td><td>1236.59</td></tr><tr><td>Negative</td><td>615</td><td>8.27</td><td>1025.48</td></tr></tbody></table></section>
+    </section>
+  </main>
+</body>
+</html>
